@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp3.AddOcenaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="AddOcenaWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btOcenaAdd" Content="Add" HorizontalAlignment="Left" Margin="621,343,0,0" VerticalAlignment="Top" Height="52" Width="119" Click="btOcenaAdd_Click"/>
+        <TextBox x:Name="tbOcena" HorizontalAlignment="Left" Margin="342,92,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" Height="43"/>
+        <TextBox x:Name="tbKom" HorizontalAlignment="Left" Margin="342,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" Height="38"/>
+        <Label Content="Komentarz" HorizontalAlignment="Left" Margin="142,179,0,0" VerticalAlignment="Top" Height="38" Width="133"/>
+        <Label Content="Ocena" HorizontalAlignment="Left" Margin="142,96,0,0" VerticalAlignment="Top" Height="21" Width="133"/>
+
+    </Grid>
+</Window>
